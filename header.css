@@ -30,16 +30,23 @@ header{
   color: var(--red);   
 }
 
-.tech{
+.tech {
   display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
   align-items: center;
   gap: 6px;
+
   padding: 6px 14px;
   background-color: #2b2f36;
   border-radius: 999px;
+
   font-size: 13px;
   color: #d1d5db;
   white-space: nowrap;
+}
+
+.tech-list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
