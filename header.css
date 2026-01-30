@@ -1,23 +1,27 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.subtitle{
+    font: var(--subtitle);
+    color: var(--base-gray-200);
+
+}
 
 h1{
-    font-family: var(--font-family-1);
-    color: var(--base-gray-100);
+    font: var(--h1);
+    margin-top: 8px;
+    margin-bottom: 20px;
+
 }
 
-#subtitle{
-    font-family: var(--font-family-2);
+h6{
+    font: var(--text-sm);
+
 }
 
-#color{
+.nome{
     color: var(--red);
-}
-
-p{
-    font: var(--text-small);
-}
-
-#background-color{
-    height: 750px;
-    width: 1366px;
-    background-color: antiquewhite;
 }

@@ -28,7 +28,10 @@
 
     --font-family-3:'Maven pro', sans-serif;
     --text-md:800 16px/140% var(--font-family-3);
-    --text-small:800 14px/140% var(--font-family-3);
+    --text-sm:800 14px/140% var(--font-family-3);
 }
 
-
+body{
+    background-image: url(./assets/images/Background_Intro.png);
+    background-size: 1366px 750px;
+}
