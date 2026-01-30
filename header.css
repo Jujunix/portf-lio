@@ -1,0 +1,23 @@
+
+h1{
+    font-family: var(--font-family-1);
+    color: var(--base-gray-100);
+}
+
+#subtitle{
+    font-family: var(--font-family-2);
+}
+
+#color{
+    color: var(--red);
+}
+
+p{
+    font: var(--text-small);
+}
+
+#background-color{
+    height: 750px;
+    width: 1366px;
+    background-color: antiquewhite;
+}
