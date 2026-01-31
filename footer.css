@@ -1,0 +1,5 @@
+.seta{
+    display: grid;
+    justify-content: center;
+      transform: translateY(-60px);
+}

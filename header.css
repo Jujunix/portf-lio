@@ -4,17 +4,20 @@ header{
     align-items: center;
     height: 100vh;
 }
-.grid{
-    display: grid;
-    align-content: space-between;
+#photo{
+transform: translatex(300px);
+margin-bottom: 56px;
+
 }
 .subtitle {
+  transform: translateX(110px);
   font: var(--subtitle);
   color: var(--base-gray-200);
   padding-bottom: 8px;
 }
 
 .title{
+  transform: translateX(50px);
     font: var(--h1);
     color: var(--base-gray-100);
     padding-bottom: 20px;
