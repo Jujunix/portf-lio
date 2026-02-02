@@ -29,7 +29,7 @@
   font-size: 13px;
   color: #d1d5db;
   white-space: nowrap;
- margin-bottom: 30px;
+ margin-bottom: 24px;
   
  img{
     height: 156px;
@@ -42,10 +42,11 @@
 
 .project-card-list{
 
-    display: flex;
+    display: grid;
     gap: 24px;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(3, auto);
   justify-content: center;
+  margin-bottom: 144px;
 
 }
 
