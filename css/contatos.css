@@ -1,0 +1,71 @@
+/* .contatos{
+    margin-top: 128px;
+} */
+
+.info{
+    display: grid;
+    justify-content: center;
+    font: var(--subtitle);
+    color: var(--purple);
+    margin-bottom: 8px;
+}
+
+.text-m{
+    display: grid;
+    justify-content: center;
+    font: var(--h2);
+    color: var(--base-gray-100);
+    margin-bottom: 8px;
+}
+
+
+.title-mid{
+    display: grid;
+    justify-content: center;
+    font: var(--text-md);
+    color: var(--base-gray-100);
+    margin-bottom: 48px;
+}
+
+.socialbutton {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  height: 68px;
+  width: 400px;
+  background-color: #2b2f36;
+  border-radius: 8px;
+
+  font-size: 13px;
+  color: #d1d5db;
+  white-space: nowrap;
+  img{
+    margin-left: 10px;
+  }
+}
+
+.socialbutton-list {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(1, auto);
+  justify-content: center;
+
+  margin-bottom: 200px;
+}
+
+.contact-grid{
+    font: var(--text-md);
+}
+
+.seta-diagonal{
+    transform: translateX(225px);
+}
+
+.seta-diagonal-1{
+    transform: translateX(250px);
+}
+
+.seta-diagonal-2{
+    transform: translateX(233px);
+}
