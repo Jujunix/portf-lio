@@ -1,13 +1,10 @@
-/* .contatos{
-    margin-top: 128px;
-} */
-
 .info{
     display: grid;
     justify-content: center;
     font: var(--subtitle);
     color: var(--purple);
     margin-bottom: 8px;
+    padding-top: 128px;
 }
 
 .text-m{
